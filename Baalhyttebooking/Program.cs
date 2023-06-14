@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Boernegruppe gruppe1 = new Boernegruppe("1", "Piltene", "Pilt", 4);
+            Boernegruppe gruppe1 = new Boernegruppe("1", "Piltene", "pilt", 4);
 
             Reservation reservation1 = new Reservation(1, new DateTime(2023, 6, 14), gruppe1);
 

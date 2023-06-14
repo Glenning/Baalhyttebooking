@@ -11,8 +11,8 @@ namespace Baalhyttebooking
     {
         public string ID;
         public string Navn;
-        public string Aldersgruppe;
         public int AntalDeltagere;
+        public string Aldersgruppe;
         public enum AldersGruppe {pusling, tumling, pilt, væbner, seniorvæbner} //Opgave 12
 
         public override string ToString()
@@ -24,8 +24,8 @@ namespace Baalhyttebooking
         {
             ID = _id;
             Navn = _navn;
-            Aldersgruppe = _aldersgruppe;
             AntalDeltagere = _antaldeltagere;
+            Aldersgruppe = _aldersgruppe;
         }
 
     }
